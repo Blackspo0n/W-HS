@@ -1,0 +1,5 @@
+1: Dies ist eine Testdatei,
+2: die nur fünf Zeilen hat.
+3: Und weil dies schon die
+4: 4. Zeile ist, ist jetzt
+5: Schluss!
