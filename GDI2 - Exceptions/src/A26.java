@@ -1,7 +1,7 @@
 public class A26 {
 	public static void main(String[] args) {
 		double kehrwert;
-		for(int i = -5; i <= 5;i++) 	{
+		for(int i = -5; i <= 5;i++) {
 			try {
 				kehrwert = 1/i;
 				System.out.println(kehrwert);

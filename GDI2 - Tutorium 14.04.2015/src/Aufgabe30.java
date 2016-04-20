@@ -20,6 +20,7 @@ public class Aufgabe30 {
 			
 			fos.close();
 			sis.close();
+			fin2.close();
 			
 			System.out.println("Daten erfolgreich verbunden");
 		} catch (IOException e) {

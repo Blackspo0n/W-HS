@@ -1,4 +1,3 @@
-
 public class Challange {
 
 	public static void main(String[] args) {
@@ -27,7 +26,6 @@ public class Challange {
 			int[] zahlarray = new int[Integer.MIN_VALUE -1];
 		}
 		catch (OutOfMemoryError err) {
-
 			err.printStackTrace();
 		}
 	}
