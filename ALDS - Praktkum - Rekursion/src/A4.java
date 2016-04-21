@@ -17,7 +17,7 @@ public class A4 {
 
 	static void machEsRekursiv(int start, int ende) {
 		if(start == ende) {
-			System.out.println("Fertg");
+			System.out.println("Fertig");
 		}
 		else if(start <= ende) {
 			System.out.println(start);
