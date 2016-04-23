@@ -2,6 +2,13 @@ package challenge;
 
 import java.util.*;
 
+/**
+ * Ausführende Klasse für die Challenge
+ * mit ein paar vordefinierten Artikeln und Kunden
+ * 
+ * @author Mario Kellner <mario.kellner@studmail.w-hs.de>
+ * @version 1.0
+ */
 public class challenge {
 	public static void main(String[] args) {
 		Artikel art1 = new Artikel();
@@ -67,7 +74,6 @@ public class challenge {
 		best2.setStatus(OderStatus.OFFEN);
 		kunde3.addBestellung(best2);
 		
-		kunde3.druckeAlleOffenenBestellungen();
-		
+		kunde3.druckeAlleOffenenBestellungen();		
 	}
 }
