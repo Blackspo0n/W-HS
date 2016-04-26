@@ -23,12 +23,12 @@ public class A5 {
 	}
 	
 	static long potenzIterativ(int basis, int exponent) {
-		long  ergebniss = 1;
+		long  ergebnis = 1;
 		for(int i = 1; i <= exponent; i++) {
-			ergebniss = ergebniss * basis;
+			ergebnis = ergebnis * basis;
 		}
 		
-		return ergebniss;
+		return ergebnis;
 	}
 	
 	static long potenzRekursiv(int basis, int exponent) {
@@ -37,5 +37,4 @@ public class A5 {
 		}
 		return 1;
 	}
-
 }

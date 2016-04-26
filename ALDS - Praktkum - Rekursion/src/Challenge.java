@@ -19,19 +19,17 @@ public class Challenge {
 		return fibRekursiv(Jahre-1) + fibRekursiv(Jahre-2);
 	}
 	
-	static int fbterativ(int Jahre) {
+	static int fbiterativ(int Jahre) {
 		int hasen = 0;
 		int tmp1 = 0;
 		int tmp2 = 1;
 		
-		if(Jahre == 0) return 0;
-		if(Jahre == 1) return 1;
+		if(Jahre <= 1) return Jahre;
 		
 		for(int i = 2 ; i <= Jahre; i++) {
 			hasen = tmp1 + tmp2;
 			tmp1 = tmp2;
 			tmp2 = hasen;
-			
 		}
 		
 		return hasen;

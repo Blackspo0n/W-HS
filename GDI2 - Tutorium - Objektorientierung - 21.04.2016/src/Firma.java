@@ -72,12 +72,14 @@ public class Firma {
 	 * 
 	 */
 	public void mitarbeiterListeDrucken() {
+		System.out.println("Firmenname: " + this.getName());
+		
 		System.out.println("Name\tPersonalNummer\tAbteilung");
 		System.out.println("================================");
 		System.out.println(this.getBoss().getName() + "\t" + this.getBoss().getPrsnlnr() + "\tChef");
+		
 		for(Abteilung item: this.abl) {
 			for(Mitarbeiter arbeiter: item.ma) {
-
 				System.out.println(arbeiter.getName() + "\t" + arbeiter.getPrsnlnr() + "\t" + item.bezeichnung);
 			}
 		}
