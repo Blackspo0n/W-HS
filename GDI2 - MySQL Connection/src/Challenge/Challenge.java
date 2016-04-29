@@ -155,7 +155,6 @@ public class Challenge {
 				System.out.print(rs.getString("spielort") + "\n");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "Spielplan erfolgreich ausgegeben";
