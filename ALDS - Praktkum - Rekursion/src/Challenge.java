@@ -10,12 +10,10 @@ public class Challenge {
 	
 	static int fibRekursiv(int Jahre) {
 		
-		if(Jahre <= 0) { 
-			return 0;
+		if(Jahre <=1) { 
+			return Jahre;
 		}
-		if(Jahre == 1) {
-			return 1;
-		}
+		
 		return fibRekursiv(Jahre-1) + fibRekursiv(Jahre-2);
 	}
 	
