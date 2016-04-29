@@ -158,7 +158,7 @@ public class Challenge {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return "Spielplqan erfolgreich ausgegeben";
+		return "Spielplan erfolgreich ausgegeben";
 	}
 	
 	protected static String space(int length, int size) {
