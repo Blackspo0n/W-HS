@@ -32,7 +32,7 @@ public class MyLinkedStack {
 			if(this.head != null) {
 				tmp.next = this.head;
 			}
-			
+			this.size++;
 			this.head = tmp;
 			return true;
 		}
@@ -51,37 +51,32 @@ public class MyLinkedStack {
 		
 		if(this.head != null) {
 			this.head = this.head.next;
+			this.size--;
 		}
 		
 		return result;
 	}
 
 	public int search(Object obj) {
-		
-	}
-	// Operationen (Klasse MyLinkedList)
-	/**
-	 * Überprüfung, ob ein Index im gültigen Bereich liegt
-	 */	
-	private static void rangeCheck(int minIndex, int index, int maxIndex)
-	{
-		if (index < minIndex || index > maxIndex)
-			throw new IndexOutOfBoundsException();
+		if(obj != null) {
+			Entry e = this.head;
+			
+			for(int i = 0; i < this.size; i++) {
+	
+				if(obj.equals(e.data)) {
+					return i;
+				}
+				if(e.next != null) {
+					e = e.next;
+				}
+			}
+		}
+		return -1;
 	}
 
-	/**
-	 * Überprüfung, ob die Liste leer ist
-	 */	 
+	
 	public boolean isEmpty()
 	{
 		return this.size == 0;
 	}
-	
-	/**
-	 * Bestimmung der Anzahl der Elemente in der Liste
-	 */
-	public int size()
-	{
-		return this.size;
-	}	
 }
