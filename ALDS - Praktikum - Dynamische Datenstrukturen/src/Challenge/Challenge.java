@@ -1,9 +1,9 @@
-package Challange;
+package Challenge;
 
 import base.MyLinkedList;
 import base.MyLinkedStack;
 
-public class Challange {
+public class Challenge {
 
 	public static void main(String[] args) {
 		MyLinkedStack ll = new MyLinkedStack();
