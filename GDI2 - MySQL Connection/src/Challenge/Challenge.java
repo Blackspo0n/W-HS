@@ -25,7 +25,6 @@ public class Challenge {
 			System.err.println("Treiber konnten nicht geladen werden.");
 			
 		}
-
 	}
 	public static String connect(String ipAdresse, String port, String benutzerName, String passwort) {
 		System.out.println("Connecting to database...");

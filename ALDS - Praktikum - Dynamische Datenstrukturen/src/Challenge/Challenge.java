@@ -22,10 +22,5 @@ public class Challenge {
 		System.out.println("'Aufgabe' liegt an der Position " + ll.search("Aufgabe"));
 		System.out.println("Ausgabe des ersten Elements des Stacks mit Löschung: " + ll.pop());
 		System.out.println("Ausgabe des ersten Elements des Stacks ohne Löschung: " + ll.peek());
-		
-		
-		
-
 	}
-
 }

@@ -35,7 +35,7 @@ public class A10
     	//Letztes Element entfernen
     	String lastElement = (String)ll.remove(ll.size()-1);
     	
-    	System.out.println("Wert des letzen Elementes:" + lastElement);
+    	System.out.println("Wert des letzten Elementes:" + lastElement);
     	
     	//Erstes Element entfernen
     	String firstElement = (String)ll.remove(0);
