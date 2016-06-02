@@ -1,10 +1,13 @@
+import java.io.Serializable;
+
 /**
  * Representiert die Abteilungen eines Unternehmens.
  * 
  * @author Mario Kellner <mario.kellner@studmail.w-hs.de>
  * @version 1.0
  */
-class Mitarbeiter {
+class Mitarbeiter implements Serializable {
+
 	/**
 	 * Beinhaltet die zugeordnete Abteilung
 	 */

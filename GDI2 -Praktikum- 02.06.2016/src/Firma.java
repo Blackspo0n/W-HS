@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -6,7 +7,7 @@ import java.util.*;
  * @author Mario Kellner <mario.kellner@studmail.w-hs.de>
  * @version 1.0
  */
-public class Firma {
+public class Firma implements Serializable {
 	/**
 	 * Name der Firma
 	 */
